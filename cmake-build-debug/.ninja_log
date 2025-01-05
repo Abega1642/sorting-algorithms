@@ -1,7 +1,3 @@
 # ninja log v6
 45	103	1728291767580073905	untitled2	531c2570c661fb11
-1	27	1736096462095897425	build.ninja	3d2aeeae93165264
-1	60	1728290581296042772	CMakeFiles/untitled2.dir/substitutionSort.c.o	b341277f37e1cac2
-6	269	1728291760668073724	CMakeFiles/untitled2.dir/selectionSort.c.o	966202abc00a7bd9
-4	270	1728291760668073724	CMakeFiles/untitled2.dir/bubbleSort.c.o	f9e4bef2e868e241
-1	45	1728291767536073904	CMakeFiles/untitled2.dir/factorial.c.o	20f845f8e59e64a5
+1	27	1736096955296828661	build.ninja	3d2aeeae93165264

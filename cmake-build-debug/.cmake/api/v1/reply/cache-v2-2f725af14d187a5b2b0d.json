@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "untitled2"
+			"value" : "sortAlgorithms"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1024,6 +1024,42 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "TRUE"
+		},
+		{
+			"name" : "sortAlgorithms_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms/cmake-build-debug"
+		},
+		{
+			"name" : "sortAlgorithms_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "sortAlgorithms_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms"
 		},
 		{
 			"name" : "untitled2_BINARY_DIR",

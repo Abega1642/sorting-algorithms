@@ -4,8 +4,8 @@ project(untitled2 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(untitled2
-        substitutionSort.c
-        insertionSort.c
-        bubbleSort.c
-        selectionSort.c
-        factorial.c)
+        sortAlgos/substitutionSort.c
+        sortAlgos/insertionSort.c
+        sortAlgos/bubbleSort.c
+        sortAlgos/selectionSort.c
+)

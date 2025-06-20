@@ -14,11 +14,33 @@ Each algorithm is implemented in a clean and understandable way, intended for ed
 The repository is organized as follows:
 
 ```
-├── src
-│ ├── bubleSort.c          # Bubble Sort implementation
-│ ├── insertionSort.c      # Insertion Sort implementation
-│ ├── selectionSort.c      # Selection Sort implementation
-│ ├── substitutionSort.c   # Substitution Sort implementation
+sort-algorithms/
+│
+├── include/                  
+│   ├── bubble_sort.h
+│   ├── selection_sort.h
+│   ├── substitution_sort.h
+│   ├── insertion_sort.h
+│   ├── test_bubble_sort.h
+│   ├── test_selection_sort.h
+│   ├── test_substitution_sort.h
+│   ├── test_insertion_sort.h
+│   └── util.h
+│
+├── src/                         # Source implementations
+│   ├── bubble_sort.c
+│   ├── selection_sort.c
+│   ├── substitution_sort.c
+│   └── insertion_sort.c
+│
+├── tests/                       # Unit tests
+│   ├── test_bubble_sort.c
+│   ├── test_selection_sort.c
+│   ├── test_substitution_sort.c
+│   └── test_insertion_sort.c
+│
+├── README.md                    # Project overview, usage, build instructions
+└── CMakefileLists.txt
 
 ```
 

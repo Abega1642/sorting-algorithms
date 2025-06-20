@@ -4,8 +4,8 @@ project(sortAlgorithms C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(sortAlgorithms
-        sortAlgos/substitutionSort.c
-        sortAlgos/insertionSort.c
-        sortAlgos/bubbleSort.c
-        sortAlgos/selectionSort.c
+        src/substitutionSort.c
+        src/insertionSort.c
+        src/bubbleSort.c
+        src/selectionSort.c
 )

@@ -1,6 +1,3 @@
-
-#include <stdio.h>
-
 void bubbleSort(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         int max = arr[0];

@@ -1,7 +1,4 @@
-
-#include <stdio.h>
-
-void insertionSort(int array[], int size) {
+void insertionSort(int array[], const int size) {
     for (int i = 0; i < size - 1; i++) {
         if (array[i] > array[i + 1]) {
             const int min = array[i + 1];

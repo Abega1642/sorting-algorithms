@@ -1,7 +1,4 @@
-
-#include <stdio.h>
-
-int findMin(int array[], int size) {
+int findMin(const int array[], const int size) {
     int min = array[0];
     for (int i = 0; i < size; i++) {
         if (min > array[i]) {
@@ -11,7 +8,7 @@ int findMin(int array[], int size) {
     return min;
 }
 
-int findMax(int array[], int size) {
+int findMax(const int array[], const int size) {
     int max = array[0];
     for (int i = 0; i < size; i++) {
         if (max < array[i]) {

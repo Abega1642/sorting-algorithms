@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms/cmake-build-debug"
+			"value" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "29"
+			"value" : "30"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "6"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -415,7 +415,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -475,7 +475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms"
+			"value" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -759,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/abega/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.29"
+			"value" : "/home/abega/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.30"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1035,7 +1035,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms/cmake-build-debug"
+			"value" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms/cmake-build-debug"
 		},
 		{
 			"name" : "sortAlgorithms_IS_TOP_LEVEL",
@@ -1059,43 +1059,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms"
-		},
-		{
-			"name" : "untitled2_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms/cmake-build-debug"
-		},
-		{
-			"name" : "untitled2_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "untitled2_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms"
+			"value" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms"
 		}
 	],
 	"kind" : "cache",

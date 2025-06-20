@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms/cmake-build-debug",
-		"source" : "/home/abega/Documents/Devoir_Informatique--HEI/Sort_algorithms"
+		"build" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms/cmake-build-debug",
+		"source" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms"
 	},
 	"version" : 
 	{

@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-int findMin2(int array[], int minIndex, int maxIndex) {
+int findMin2(const int array[], const int minIndex, const int maxIndex) {
     int min = array[minIndex];
     for (int i = minIndex; i < maxIndex; i++) {
         if (array[i] < min) {
@@ -10,7 +8,7 @@ int findMin2(int array[], int minIndex, int maxIndex) {
     return min;
 }
 
-void selectionSort(int array[], int arraySize) {
+void selectionSort(int array[], const int arraySize) {
     for (int i = 0; i < arraySize; i++) {
         int min = findMin2(array, i, arraySize);
         for (int j = 0; j < arraySize - 1; j++) {

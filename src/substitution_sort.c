@@ -1,22 +1,5 @@
-int findMin(const int array[], const int size) {
-    int min = array[0];
-    for (int i = 0; i < size; i++) {
-        if (min > array[i]) {
-            min = array[i];
-        }
-    }
-    return min;
-}
-
-int findMax(const int array[], const int size) {
-    int max = array[0];
-    for (int i = 0; i < size; i++) {
-        if (max < array[i]) {
-            max = array[i];
-        }
-    }
-    return max;
-}
+#include "../include/substitution_sort.h"
+#include "../include/util.h"
 
 void substitutionSort(int array[], const int arraySize) {
     const int maximumValue = findMax(array, arraySize);

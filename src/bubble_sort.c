@@ -1,15 +1,26 @@
-#include "../include/buble_sort.h"
+#include "../include/bubble_sort.h"
 
-void bubbleSort(int arr[], const int size) {
-    for (int i = 0; i < size; i++) {
-        int max = arr[0];
-        for (int j = 1; j < size; j++) {
-            if (max > arr[j]) {
-                arr[j - 1] = arr[j];
-                arr[j] = max;
-            } else {
-                max = arr[j];
+#include <stddef.h>
+#include <stdbool.h>
+
+void bubbleSort(int *arr, const size_t size) {
+    if (arr == NULL || size < 2) {
+        return;
+    }
+
+    for (size_t i = 0; i < size - 1; ++i) {
+        bool swapped = false;
+        for (size_t j = 0; j < size - i - 1; ++j) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+                swapped = true;
             }
+        }
+        if (!swapped) {
+            break;
         }
     }
 }

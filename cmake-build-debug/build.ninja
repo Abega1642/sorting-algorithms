@@ -79,8 +79,8 @@ build CMakeFiles/sortAlgorithms.dir/src/util/util.c.o: C_COMPILER__sortAlgorithm
   OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/src/util
 
-build CMakeFiles/sortAlgorithms.dir/tests/test_buble_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_buble_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/tests/test_buble_sort.c.o.d
+build CMakeFiles/sortAlgorithms.dir/tests/test_bubble_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_bubble_sort.c || cmake_object_order_depends_target_sortAlgorithms
+  DEP_FILE = CMakeFiles/sortAlgorithms.dir/tests/test_bubble_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
   OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/tests
@@ -117,7 +117,7 @@ build CMakeFiles/sortAlgorithms.dir/tests/main_test.c.o: C_COMPILER__sortAlgorit
 #############################################
 # Link the executable sortAlgorithms
 
-build sortAlgorithms: C_EXECUTABLE_LINKER__sortAlgorithms_Debug CMakeFiles/sortAlgorithms.dir/src/substitution_sort.c.o CMakeFiles/sortAlgorithms.dir/src/insertion_sort.c.o CMakeFiles/sortAlgorithms.dir/src/bubble_sort.c.o CMakeFiles/sortAlgorithms.dir/src/selection_sort.c.o CMakeFiles/sortAlgorithms.dir/src/util/util.c.o CMakeFiles/sortAlgorithms.dir/tests/test_buble_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_insertion_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_selection_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_substitution_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/main_test.c.o
+build sortAlgorithms: C_EXECUTABLE_LINKER__sortAlgorithms_Debug CMakeFiles/sortAlgorithms.dir/src/substitution_sort.c.o CMakeFiles/sortAlgorithms.dir/src/insertion_sort.c.o CMakeFiles/sortAlgorithms.dir/src/bubble_sort.c.o CMakeFiles/sortAlgorithms.dir/src/selection_sort.c.o CMakeFiles/sortAlgorithms.dir/src/util/util.c.o CMakeFiles/sortAlgorithms.dir/tests/test_bubble_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_insertion_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_selection_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_substitution_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/main_test.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
   POST_BUILD = :

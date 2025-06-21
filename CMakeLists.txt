@@ -8,15 +8,15 @@ add_executable(sortAlgorithms
         src/insertion_sort.c
         src/bubble_sort.c
         src/selection_sort.c
-        include/buble_sort.h
+        include/bubble_sort.h
         include/insertion_sort.h
         include/selection_sort.h
         include/substitution_sort.h
         include/util.h
         src/util/util.c
-        tests/test_buble_sort.c
+        tests/test_bubble_sort.c
         tests/test_insertion_sort.c
-        include/test_buble_sort.h
+        include/test_bubble_sort.h
         include/test_insert_sort.h
         tests/test_selection_sort.c
         include/test_selection_sort.h

@@ -1,4 +1,4 @@
-#include "../include/test_buble_sort.h"
+#include "../include/test_bubble_sort.h"
 #include "../include/test_insert_sort.h"
 #include "../include/test_selection_sort.h"
 #include "../include/test_substitution_sort.h"

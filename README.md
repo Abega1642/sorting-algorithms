@@ -34,6 +34,7 @@ sort-algorithms/
 │   └── insertion_sort.c
 │
 ├── tests/                       # Unit tests
+│   ├── main_test.c
 │   ├── test_bubble_sort.c
 │   ├── test_selection_sort.c
 │   ├── test_substitution_sort.c
@@ -49,15 +50,6 @@ sort-algorithms/
 ### ✅ Prerequisites
 
 You’ll need a C compiler like `gcc`.
-
-### 🔧 Build & Run
-
-To compile and run the program, add your custom `main.c` file and follow this instruction :
-
-```bash
-gcc main.c -o sort
-./sort
-````
 
 ## 🧠 Algorithms Explained
 

@@ -1,8 +1,8 @@
 #ifndef UTIL_H
 #define UTIL_H
+#include <stddef.h>
 
-int findMin(const int array[], int size);
-int findMinWithIndexes(const int array[], int minInd, int maxInd);
-int findMax(const int array[], int size);
+int find_min(const int *array, size_t size);
+int find_max(const int *array, size_t size);
 
 #endif

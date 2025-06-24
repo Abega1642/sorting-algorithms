@@ -1,19 +1,21 @@
 #include "../include/insertion_sort.h"
+#include <stddef.h>
 
-void insertionSort(int array[], const int size) {
-    for (int i = 0; i < size - 1; i++) {
-        if (array[i] > array[i + 1]) {
-            const int min = array[i + 1];
-            int k = 0;
-            while (i - k >= 0) {
-                if (array[i - k] > min) {
-                    array[i - k + 1] = array[i - k];
-                    array[i - k] = min;
-                }
-                k++;
-            }
+void insertion_sort(int *array, const size_t size) {
+    if (array == NULL || size < 2) {
+        return;
+    }
+
+    for (size_t i = 1; i < size; ++i) {
+        const int key = array[i];
+        size_t j = i;
+
+        while (j > 0 && array[j - 1] > key) {
+            array[j] = array[j - 1];
+            --j;
         }
+
+        array[j] = key;
     }
 }
-
 

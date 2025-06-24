@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "sortAlgorithms"
+			"path" : "sort_algorithms"
 		}
 	],
 	"backtrace" : 1,
@@ -62,7 +62,7 @@
 			]
 		}
 	],
-	"id" : "sortAlgorithms::@6890427a1f51a3e7e1df",
+	"id" : "sort_algorithms::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -78,8 +78,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "sortAlgorithms",
-	"nameOnDisk" : "sortAlgorithms",
+	"name" : "sort_algorithms",
+	"nameOnDisk" : "sort_algorithms",
 	"paths" : 
 	{
 		"build" : ".",

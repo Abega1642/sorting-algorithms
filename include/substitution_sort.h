@@ -1,6 +1,7 @@
 #ifndef SUBSTITUTION_SORT_H
 #define SUBSTITUTION_SORT_H
+#include <stddef.h>
 
-void substitutionSort(int array[], int arraySize);
+void substitution_sort(int *array, size_t size);
 
 #endif

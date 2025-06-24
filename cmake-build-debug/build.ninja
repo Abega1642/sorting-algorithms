@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: sortAlgorithms
+# Project: sort_algorithms
 # Configurations: Debug
 # =============================================================================
 
@@ -41,89 +41,89 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/abega/Documents/Computer_Science_works/Sort_algorithms/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target sortAlgorithms
+# Object build statements for EXECUTABLE target sort_algorithms
 
 
 #############################################
-# Order-only phony target for sortAlgorithms
+# Order-only phony target for sort_algorithms
 
-build cmake_object_order_depends_target_sortAlgorithms: phony || .
+build cmake_object_order_depends_target_sort_algorithms: phony || .
 
-build CMakeFiles/sortAlgorithms.dir/src/substitution_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/substitution_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/src/substitution_sort.c.o.d
+build CMakeFiles/sort_algorithms.dir/src/substitution_sort.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/substitution_sort.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/src/substitution_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/src
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/src
 
-build CMakeFiles/sortAlgorithms.dir/src/insertion_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/insertion_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/src/insertion_sort.c.o.d
+build CMakeFiles/sort_algorithms.dir/src/insertion_sort.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/insertion_sort.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/src/insertion_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/src
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/src
 
-build CMakeFiles/sortAlgorithms.dir/src/bubble_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/bubble_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/src/bubble_sort.c.o.d
+build CMakeFiles/sort_algorithms.dir/src/bubble_sort.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/bubble_sort.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/src/bubble_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/src
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/src
 
-build CMakeFiles/sortAlgorithms.dir/src/selection_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/selection_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/src/selection_sort.c.o.d
+build CMakeFiles/sort_algorithms.dir/src/selection_sort.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/selection_sort.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/src/selection_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/src
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/src
 
-build CMakeFiles/sortAlgorithms.dir/src/util/util.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/util/util.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/src/util/util.c.o.d
+build CMakeFiles/sort_algorithms.dir/src/util/util.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/src/util/util.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/src/util/util.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/src/util
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/src/util
 
-build CMakeFiles/sortAlgorithms.dir/tests/test_bubble_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_bubble_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/tests/test_bubble_sort.c.o.d
+build CMakeFiles/sort_algorithms.dir/tests/test_bubble_sort.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_bubble_sort.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/tests/test_bubble_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/tests
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/tests
 
-build CMakeFiles/sortAlgorithms.dir/tests/test_insertion_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_insertion_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/tests/test_insertion_sort.c.o.d
+build CMakeFiles/sort_algorithms.dir/tests/test_insertion_sort.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_insertion_sort.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/tests/test_insertion_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/tests
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/tests
 
-build CMakeFiles/sortAlgorithms.dir/tests/test_selection_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_selection_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/tests/test_selection_sort.c.o.d
+build CMakeFiles/sort_algorithms.dir/tests/test_selection_sort.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_selection_sort.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/tests/test_selection_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/tests
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/tests
 
-build CMakeFiles/sortAlgorithms.dir/tests/test_substitution_sort.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_substitution_sort.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/tests/test_substitution_sort.c.o.d
+build CMakeFiles/sort_algorithms.dir/tests/test_substitution_sort.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/test_substitution_sort.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/tests/test_substitution_sort.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/tests
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/tests
 
-build CMakeFiles/sortAlgorithms.dir/tests/main_test.c.o: C_COMPILER__sortAlgorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/main_test.c || cmake_object_order_depends_target_sortAlgorithms
-  DEP_FILE = CMakeFiles/sortAlgorithms.dir/tests/main_test.c.o.d
+build CMakeFiles/sort_algorithms.dir/tests/main_test.c.o: C_COMPILER__sort_algorithms_unscanned_Debug /home/abega/Documents/Computer_Science_works/Sort_algorithms/tests/main_test.c || cmake_object_order_depends_target_sort_algorithms
+  DEP_FILE = CMakeFiles/sort_algorithms.dir/tests/main_test.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
-  OBJECT_FILE_DIR = CMakeFiles/sortAlgorithms.dir/tests
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
+  OBJECT_FILE_DIR = CMakeFiles/sort_algorithms.dir/tests
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target sortAlgorithms
+# Link build statements for EXECUTABLE target sort_algorithms
 
 
 #############################################
-# Link the executable sortAlgorithms
+# Link the executable sort_algorithms
 
-build sortAlgorithms: C_EXECUTABLE_LINKER__sortAlgorithms_Debug CMakeFiles/sortAlgorithms.dir/src/substitution_sort.c.o CMakeFiles/sortAlgorithms.dir/src/insertion_sort.c.o CMakeFiles/sortAlgorithms.dir/src/bubble_sort.c.o CMakeFiles/sortAlgorithms.dir/src/selection_sort.c.o CMakeFiles/sortAlgorithms.dir/src/util/util.c.o CMakeFiles/sortAlgorithms.dir/tests/test_bubble_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_insertion_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_selection_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/test_substitution_sort.c.o CMakeFiles/sortAlgorithms.dir/tests/main_test.c.o
+build sort_algorithms: C_EXECUTABLE_LINKER__sort_algorithms_Debug CMakeFiles/sort_algorithms.dir/src/substitution_sort.c.o CMakeFiles/sort_algorithms.dir/src/insertion_sort.c.o CMakeFiles/sort_algorithms.dir/src/bubble_sort.c.o CMakeFiles/sort_algorithms.dir/src/selection_sort.c.o CMakeFiles/sort_algorithms.dir/src/util/util.c.o CMakeFiles/sort_algorithms.dir/tests/test_bubble_sort.c.o CMakeFiles/sort_algorithms.dir/tests/test_insertion_sort.c.o CMakeFiles/sort_algorithms.dir/tests/test_selection_sort.c.o CMakeFiles/sort_algorithms.dir/tests/test_substitution_sort.c.o CMakeFiles/sort_algorithms.dir/tests/main_test.c.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/sortAlgorithms.dir
+  OBJECT_DIR = CMakeFiles/sort_algorithms.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = sortAlgorithms
-  TARGET_PDB = sortAlgorithms.dbg
+  TARGET_FILE = sort_algorithms
+  TARGET_PDB = sort_algorithms.dbg
 
 
 #############################################
@@ -159,7 +159,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/abega/Documents/Computer_Science_works/Sort_algorithms/cmake-build-debug
 
-build all: phony sortAlgorithms
+build all: phony sort_algorithms
 
 # =============================================================================
 # Built-in targets

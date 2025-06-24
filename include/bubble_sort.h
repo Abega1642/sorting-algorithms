@@ -2,6 +2,6 @@
 #define BUBLE_SORT_H
 #include <stddef.h>
 
-void bubbleSort(int *arr, size_t size);
+void bubble_sort(int *arr, size_t size);
 
 #endif

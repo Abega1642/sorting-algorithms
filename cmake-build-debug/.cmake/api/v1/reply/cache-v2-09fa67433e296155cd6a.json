@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "sortAlgorithms"
+			"value" : "sort_algorithms"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1051,6 +1051,42 @@
 		},
 		{
 			"name" : "sortAlgorithms_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms"
+		},
+		{
+			"name" : "sort_algorithms_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/abega/Documents/Computer_Science_works/Sort_algorithms/cmake-build-debug"
+		},
+		{
+			"name" : "sort_algorithms_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "sort_algorithms_SOURCE_DIR",
 			"properties" : 
 			[
 				{

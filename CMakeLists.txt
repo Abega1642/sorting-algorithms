@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.28)
-project(sortAlgorithms C)
+project(sort_algorithms C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(sortAlgorithms
+add_executable(sort_algorithms
         src/substitution_sort.c
         src/insertion_sort.c
         src/bubble_sort.c

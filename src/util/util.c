@@ -1,31 +1,30 @@
 #include "../../include/util.h"
+#include <stddef.h>
 
-int findMin(const int array[], const int size) {
-    int min = array[0];
-    for (int i = 0; i < size; i++) {
-        if (min > array[i]) {
-            min = array[i];
+int find_max(const int *array, const size_t size) {
+    if (array == NULL || size == 0) {
+        return 0;
+    }
+
+    int max = array[0];
+    for (size_t i = 1; i < size; ++i) {
+        if (array[i] > max) {
+            max = array[i];
         }
     }
-    return min;
+    return max;
 }
 
-int findMinWithIndexes(const int array[], const int minInd, const int maxInd) {
-    int min = array[minInd];
-    for (int i = minInd; i < maxInd; i++) {
+int find_min(const int *array, const size_t size) {
+    if (array == NULL || size == 0) {
+        return 0;
+    }
+
+    int min = array[0];
+    for (size_t i = 1; i < size; ++i) {
         if (array[i] < min) {
             min = array[i];
         }
     }
     return min;
-}
-
-int findMax(const int array[], const int size) {
-    int max = array[0];
-    for (int i = 0; i < size; i++) {
-        if (max < array[i]) {
-            max = array[i];
-        }
-    }
-    return max;
 }
